@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFast - Leading IT solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+
+    html{
+         scroll-behavior: smooth;
+    }
+        /* Scroll Reveal Animation */
+.reveal{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+
+.reveal.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="./images/logo-black.png" alt="logo">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#trust-us" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="#our-services" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="cta">
+                <a href="#" class="primary-btn">Get In Touch</a>
+            </div>
+            <i class="fa-solid fa-bars menu-icon" onclick="menuToggle()"></i>
+        </div>
+
+        <div class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <h5 class="hero-title">IT Solutions & Technology Services</h5>
+                        <h1 class="hero-content">Web Design, Develop,<br>Implement & <span>IT Solutions</span></h1>
+                        <p class="hero-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                        <div class="hero-buttons">
+                            <a href="#" class="secondary-btn">Learn More</a>
+                            <a href="" class="primary-btn">Our Services</a>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <img src="./images/hero-banner.png" id="hero-banner" alt="">
+                    </div>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="our-services">
+            <h5 class="section-title center">What We Provide</h5>
+            <h2 class="subtitle center">Our Services</h2>
+            <div class="row">
+                <div class="col-3">
+                    <div class="services-item">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
+                        magna aliqua</p>
+                        <a href="#" class="readmore-btn">Read More <span>&#10132;</span></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="services-item">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
+                        magna aliqua</p>
+                        <a href="#" class="readmore-btn">Read More <span>&#10132;</span></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="services-item">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
+                        magna aliqua</p>
+                        <a href="#" class="readmore-btn">Read More <span>&#10132;</span></a>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="services-item">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
+                        magna aliqua</p>
+                        <a href="#" class="readmore-btn">Read More <span>&#10132;</span></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="services-item">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
+                        magna aliqua</p>
+                        <a href="#" class="readmore-btn">Read More <span>&#10132;</span></a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="services-item">
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore
+                        magna aliqua</p>
+                        <a href="#" class="readmore-btn">Read More <span>&#10132;</span></a>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+
+        <section id="trust-us">
+            <div class="row">
+                <div class="col-2">                   
+                    <div class="trust-us-box">
+                        <h4 class="section-title">WHY TRUST US?</h4>
+                        <h2 class="subtitle">Your one-stop Solution to Meet your Business Vision & Mission</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="our-features">                          
+                            <div class="row">
+                                <div class="col-2">Protect your Business</div>
+                                <div class="col-2">Network Security</div>                            
+                            </div>
+                            <div class="row">
+                                <div class="col-2">Small Business Owners</div>
+                                <div class="col-2">Network Monitoring</div>                            
+                            </div>
+                            <div class="row">
+                                <div class="col-2">Running your Business</div>
+                                <div class="col-2">Data Security</div>                            
+                            </div>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="./images/choose-2.jpg" alt="">
+                </div>
+            </div>
+        </section>  
+    </div>
+
+     <section id="support">
+            <div class="support-row">
+                <h4 class="section-title">Contact Us For A Free Consultation</h4>
+                <h2>24x7 Expert Technical Support</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.</p>
+                <div class="hero-buttons">                    
+                    <a href="" class="primary-btn">Call now</a>
+                    <a href="#" class="secondary-btn">Contact us</a>
+                </div>
+            </div>
+    </section>
+
+    <div class="container">
+        <section id="pricing">
+
+        </section>
+    </div>
+
+    <footer>
+
+    </footer>
+
+      
+    <script>
+
+/*      Smooth scrolling effect */
+const revealElements = document.querySelectorAll(
+  '.hero-section, #our-services, #trust-us, #support'
+);
+
+const scrollObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('active');
+    }
+  });
+}, { 
+  threshold: 0.1,
+  rootMargin: "0px 0px -50px 0px" // Triggers slightly before element enters view
+});
+
+revealElements.forEach(el => {
+  el.classList.add('reveal');
+  scrollObserver.observe(el);
+});
+
+
+        function menuToggle(){
+            let menu=document.querySelector('.menu nav ul')
+            menu.classList.toggle("active")   /* toggle -> switch on off  */
+
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        }
+        
+        
+
+    </script>
+</body>
+</html>
